@@ -1,0 +1,170 @@
+body{
+    background-color: white;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home{
+    position:relative ;
+    text-align: center ;
+    margin: 0px;
+}
+.home-image{
+    height:100%;
+    min-heigh:800px;
+    width:1191px;
+}
+.name{
+    position:absolute ;
+    top: 10%;
+    left:15%;
+    
+}
+h1{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style:bold;
+    font-size: 100px;
+    color: #f49dd1;
+    
+}
+h2{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style:bold;
+    font-size: 60px;
+    color: #f49dd1
+}
+.myname{
+    font-family: "Sacramento", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0;
+    color:rgb(243, 10, 184);
+    
+
+}
+.nav{
+    background-color:#f49dd1 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+.anchor{
+    text-decoration: none;
+    text-align: right;
+    list-style: none;
+    
+}
+.anchor :hover{
+    color: rgb(110, 3, 83);
+    cursor: pointer;
+    
+}
+a{
+    padding-right: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(243, 10, 184);
+}
+.about-image{
+    height:400px;
+    width: 700px ;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+h3{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 60px;
+    color: #2c3d4f;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-flex , .cerf-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.aboutme{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+    color: #2c3d4f;
+}
+.box-2 {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.resume-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    color: #2c3d4f;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    line-height: 30px;
+}
+h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.edu{
+    margin-top: 0;
+}
+.cerf-image{
+    height: 100px;
+    opacity: 0.8;
+}
+.cerf-image:hover{
+    height: 300px;
+    opacity: 1;
+
+}
+.cerf-block{
+     display: block;
+     margin: 20px;
+}
+.headlines{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: #2c3d4f;
+}
+.contact{
+    background-color: #f49dd1;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info{
+    font-size: 30px;
+    color: #2c3d4f;
+}
+@media (max-width:768px){
+     #homee, #resume, #about, #certificate, #contact, nav, footer, .contact, .cerf-image, .cerf-flex, .cerf-block, .about-flex, .about-image, .aboutme, .icons, .info, .nav  {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+}
+   
+
+
